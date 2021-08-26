@@ -1,0 +1,66 @@
+/* cards.css ALFREDO */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+
+.container-cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 900px;
+	margin: 20px auto;
+}
+
+.card {
+	position: relative;
+	width: 252px;
+	height: 168px;
+	text-align: center;
+	color: white;
+	padding: 0px;
+	padding-top: 40px;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+	transition: all 0.3s ease;
+	border-radius: 4px;
+}
+
+.card:hover h3 {
+	font-size: 22px;
+	transition: all 0.3s ease;
+}
+
+#basica {
+	background: linear-gradient(
+		rgba(50,50,50,0.5), rgba(50,50,50,0.7)),
+		url(../../assets/basic.jpg);
+	background-size: cover;
+}
+
+#avanzada {
+	background: linear-gradient(
+		rgba(50,50,50,0.5), rgba(50,50,50,0.7)),
+		url(../../assets/advanced.jpg);	
+	background-size: cover;
+	background-position: right;
+}
+
+#premium {
+	background: linear-gradient(
+		rgba(50,50,50,0.6), rgba(50,50,50,0.8)),
+		url(../../assets/premium.jpg);
+	background-size: cover;
+}
+
+.pricing {
+    color: #00d2bc;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-shadow: 0 0 10px #0A3ABA;
+}
+
+.card:hover .pricing {
+	font-size: 18px;
+	bottom: 5px;
+	transition: all 0.3s ease;
+}

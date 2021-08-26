@@ -1,0 +1,48 @@
+/* list.css - Lista personalizada ALFREDO */
+
+.lista {
+  position: relative;
+  width: 900px;
+  height: 510px;
+  margin: 20px auto;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+  height: 150px;
+  width: 900px;
+}
+
+.product:hover {
+  background: rgb(240, 240, 240);
+}
+
+.product:hover .product-upvote {
+  font-size: 25px;
+}
+
+.product-upvote {
+  font-size: 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.product-description {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+.product-controls a {
+  font-size: 15px;
+  color: #CCCCCC;
+}
+
+.product-image {
+  border-radius: 3px;
+}

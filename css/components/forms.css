@@ -1,0 +1,23 @@
+/* forms.css ALFREDO */
+
+textarea {
+	width: 400px;
+	min-height: 150px;
+	min-width: 400px;
+	overflow: auto;
+	resize: none;
+	float: inherit;
+	flex-direction: column;
+	overflow-wrap: break-word;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input  {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 10px auto;
+    
+}

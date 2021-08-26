@@ -1,0 +1,35 @@
+/* banner.css */
+
+.mi-banner {
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("../../assets/background.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 10px;
+	text-align: center;
+	padding-bottom: 40px;
+	color: white;
+}
+
+.mi-banner h1 {
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+.mi-banner p {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+ button {
+	border: none;
+	background-color: #038387;
+	color: whitesmoke;
+	border-radius: 4px;
+	padding: 16px 48px;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+ button:hover {
+	background-color: #02BDAA;
+}
+

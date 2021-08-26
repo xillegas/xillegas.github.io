@@ -1,0 +1,33 @@
+/* Ejemplo de avatars de usuarios conectados o algo así... */
+/* Este ejemplo sirvió para entender a usar el display flex */
+
+
+.cajas-derecha {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	height: 150px;
+	align-items: center;
+}
+
+/* Muestra un ejemplo de gradiente */
+.contactos-online {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(90deg,
+		#02BDAA 0%,
+		#0A3ABA 100%);
+	position: relative;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-weight: 800;
+	font-size: 16px;
+	justify-content: center;
+}

@@ -1,1 +1,182 @@
-Hello World
+<!DOCTYPE html>
+	<!--Tercer Producto Web
+		Alfredo Villegas
+		agosto 2021
+	-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tercer Producto Web</title>
+	<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- Barra de navegación -->
+	<nav>
+		<ul>
+			<li><img src="assets/logo.png"></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="../catalogo.html">Catálogo</a></li>
+			<li><a href="#">Descargas</a></li>
+			<li><a href="#">Contacto</a></li>
+			<li style="float:right;"><a class="active" href="#footer">Acerca de</a></li>
+		</ul>
+	</nav>
+	<!-- Banner principal -->
+	<div class="mi-banner">
+		<h1>Tercer producto Web</h1>
+		<p>Este producto tendrá más cosas que el anterior</p>
+		<button>Clic aquí</button>
+	</div>
+	<!-- Tarjetas cards -->
+	<h2>Versiones de este producto</h2>
+	<div class="container-cards">
+		<div class="card" id="basica">
+			<h3>Versión Económica</h3>
+			<p>Pensada para el venezolano</p>
+			<p class="pricing">$3.00</p>
+			<div class="ribbon ribbon-bottom-right" id="populos">
+				<span id="popular">popular</span>
+			</div>
+		</div>
+		<div class="card" id="avanzada">
+			<h3>Versión Avanzada</h3>
+			<p>Ofrece todo lo necesario</p>
+			<p class="pricing">$35.00</p>
+		</div>
+		<div class="card" id="premium">
+			<h3>Versión Premium</h3>
+			<p>Exclusiva versión del producto</p>
+			<p class="pricing">$397.99</p>
+			<div class="ribbon ribbon-bottom-right">
+				<span>Oferta</span>
+			</div>
+		</div>
+	</div>
+	<!-- Contenido -->
+	<h2>Contenido</h2>
+	<div class="text-content">
+		<p>
+			Esta página es la tercera de una serie de páginas de práctica de formato HTML y CSS, aquí tenemos una barra de navegación, un banner principal, y tarjetas de selección que ofrecen un producto, también unos íconos de usuarios A, B, C, como para chat. Faltaría explorar cómo se coloca una barra de búsqueda, los grid, y ver que otros elementos UI son importantes.
+		</p>
+		<p>
+			El primer día aprendimos y practicamos el concepto de gradiente, el posicionamiento de los divs y elementos, y también un poco sobre la propiedad "display: flex", también manipulamos sombreado y entendimos sobre pseudoelementos ::before y ::after. 
+		</p>
+		<p>
+			Hoy es el segundo día de pruebas, y fue dedicado a embellecer el formato del editor de código. Hay una especie de bitácora en un archivo *.txt sobre lo que intenté lograr.
+			También intentamos añadir <strong>Dropdowns</strong> pero no funcionó, porque requiere ciertas bibliotecas de javascript, "popper", o algo así.
+		</p>
+		<p>
+			Hoy domingo terminamos este documento, lo dejamos hasta aquí porque bueno, varias razones... Entre ellas está que al parecer hay que aprender a usar a juro <strong>Bootstrap</strong>, y este documento no utiliza esas bibliotecas. Lo que hoy se logró fue añadir una lista de elementos con una interfaz más atractiva, se usaron "div" principalmente para todo, también se añadió un formulario final, solo para conocer las etiquetas HTML relacionadas y practicar un poco.
+		</p>
+		<p>
+			Veamos si puedo crear un enlace al <a href="../Proyecto 4/index.html">Proyecto 4</a> de estas prácticas PreWork del curso de LeWagon.
+		</p>
+	</div>
+	<!-- Dropdowns o cajas de selección -->
+	<!-- <div class="dropdown">
+		<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+			Dropdown button
+		</button>
+			<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+				<li><a class="dropdown-item" href="#">Action</a></li>
+				<li><a class="dropdown-item" href="#">Another action</a></li>
+				<li><a class="dropdown-item" href="#">Something else here</a></li>
+			</ul>
+	</div> -->
+
+	<!-- Lista de objetos -->
+	<h2>Lista de principales sucursales</h2>
+	<div class="lista">
+        <div class="product">
+          <div class="product-upvote">
+            <p>1º</p>
+          </div>
+          <img src="http://unsplash.it/200/120/?random" alt="" class="product-image">
+          <div class="product-description">
+            <h3>Venezuela</h3>
+            <p>Con presencia en Caracas, Valencia y Barquisimeto, donde ofrecemos</p>
+            <ul>
+            	<li>Mejores especificaciones</li>
+            	<li>Manejo de herramientas especiales</li>
+            </ul>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-upvote">
+            <p>2º</p>
+          </div>
+          <img src="http://unsplash.it/200/120/?random" alt="" class="product-image">
+          <div class="product-description">
+            <h3>Estados Unidos</h3>
+            <p>Tenemos una sucursal en Miami que cuenta con</p>
+            <ul>
+            	<li>Atención personalizada</li>
+            	<li>Respaldo garantizado</li>
+            </ul>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-upvote">
+            <p>3º</p>
+          </div>
+          <img src="http://unsplash.it/200/120/?random" alt="" class="product-image">
+          <div class="product-description">
+            <h3>China</h3>
+            <p>Una sucursal con presencia virtual y entregas al instante.</p>
+            <ul>
+            	<li>Entregas en todo el territorio chino</li>
+            	<li>Precio de envío gratis</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+	<!-- Lista de texto para hacer más larga la página -->
+	<div class="text-content" style="position: relative;">
+		<ul>
+			<li>prueba</li>
+			<li>pruebas</li>
+			<li>tesreteo</li><li>pruebas</li>
+			<li>testeo</li><li>pruebas</li>
+			<li>testeo</li><li>pruebas</li>
+			<li>testeo</li><li>pruebas</li>
+			<li>pruebas especiales</li><li>pruebas</li>
+			<li>pruebas especiales</li><li>pruebas</li>
+			<li>pruebas especiales</li><li>pruebas</li>
+			<li>pruebas especiales</li>
+		</ul>
+	</div>
+	<!-- Contenido de formulario -->
+	<h2>Contáctenos</h2>
+	<div style="max-width: 900px; margin:20px auto;">
+	<img src="assets/logo.png" align="right" style="width:300px;">
+	</div>
+	<div class="text-content">
+		<form>
+		  <label for="fname">Nombre:</label><br>
+		  <input type="text" id="fname" name="fname" placeholder="José"><br>
+		  <label for="lname">Apellido:</label><br>
+		  <input type="text" id="lname" name="lname" placeholder="Pérez">
+		</form>
+		<textarea>Escriba aquí su opinión</textarea>
+		<br>
+		<button>Enviar
+		</button>
+	</div>
+	<!-- Cajas de usuarios conectados -->
+	<div class="cajas-derecha">
+		<div class="contactos-online">
+			<p>A</p>
+		</div> 
+		<div class="contactos-online"> 
+			<p>B</p>
+		</div>
+		<div class="contactos-online">
+			<p>C</p>
+		</div>
+	</div>
+	<footer id="footer">
+      © Hecho con paciencia el 20 de AGOSTO del 2021, por Alfredo Villegas™
+    </footer>
+</body>
+</html>

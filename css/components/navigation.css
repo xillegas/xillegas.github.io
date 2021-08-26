@@ -1,0 +1,46 @@
+/* barra de navegación Proyecto 3 */
+
+nav {
+	background-color: #038387;
+	width: 100%;
+	margin: 0;
+	height: 40px;
+}
+
+nav img {
+	height: 40px;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+
+nav a {
+	color: white;
+	display: block;
+	padding: 8px;
+	background-color: #038387;
+	text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  background-color: #dddddd;
+  padding: 0;
+}
+
+nav li {
+	display: inline;
+	float: left;
+}
+
+nav li a:hover {
+  background-color: #02BDAA;
+}
+
+.active {
+  background-color: #00393B;
+}
+
+.active:hover {
+	background-color: #194C4E;
+}

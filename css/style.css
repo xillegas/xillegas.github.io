@@ -1,0 +1,36 @@
+ /*style.css para tercer producto web */
+
+@import url("components/users.css");
+@import url("components/navigation.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+@import url("components/ribbon.css");
+@import url("components/dropdown.css");
+@import url("components/list.css");
+/*@import url("components/forms.css");*/
+
+body {
+	font-family: 'Prompt', sans-serif;
+	font-weight: 400;
+	margin: 0;
+	color: #151515; 
+	background: linear-gradient(white);
+}
+
+h2 {
+	margin-left: 80px;
+}
+
+footer {
+	background-color: #00393B;
+	color: white;
+	padding: 10px 40px;
+	text-align: center;
+}
+
+.text-content {
+	max-width: 900px;
+	margin: 20px auto;
+	padding: 0px 10px;
+	text-align: justify;
+}
